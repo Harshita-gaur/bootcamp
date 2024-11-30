@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<script src="app.js"></script>
+<button class="btn" id="btnhome" onclick="goback()" >Home Page</button><br>
+<button class="btn" id="btnh" onclick="sessionjoin()">Session Join</button>
+<button class="btn" id="btnh" onclick="convert()">Converter</button>
+<button class="btn" id="btnh" onclick="counterapp()">Counter</button>
+<button class="btn" id="btnh" onclick="split()">Split the bill</button>
+<button class="btn" id="btnh" onclick="bmi()">BMI Calculator</button>
+
+
+<div class="container" id="container1">
+    <h1 id="salutation">Have you joined the bootcamp?</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe amet molestias molestiae dolore earum quisquam. Dignissimos culpa modi quis facilis rem autem, tempore sint repellendus dolorum cupiditate! Quas in voluptate enim nobis nostrum veniam esse! Amet, assumenda exercitationem natus voluptates esse delectus, illum unde nemo ducimus labore atque in culpa?</p>
+    <button class="btn" id="btn1" onclick="joined()">Yes I have joined</button>
+    <button class="btn" id="btn2" onclick="nope()">No I have not joined</button>
+    <button class="btn" id="btn3" onclick="maybe()">I will join later</button>
+</div>
+
+<div class="container" id="container2" >
+    <h1 id="counterh">JavaScript Counter</h1>
+    <h1 id="count">0</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe amet molestias molestiae dolore earum quisquam. Dignissimos culpa modi quis facilis rem autem, tempore sint repellendus dolorum cupiditate! Quas in voluptate enim nobis nostrum veniam esse! Amet, assumenda exercitationem natus voluptates esse delectus, illum unde nemo ducimus labore atque in culpa?</p>
+    <button class="btn" id="btn+" onclick="increment()">Increment</button>
+    <button class="btn" id="btn-" onclick="decrement()">Decrement</button>
+</div>
+
+
+<div class="container" id="container3">
+    <h1>Convert meters <===>  centimeters</h1>
+    <input type="text" id="inputm" ><b>m</b>
+    <p>    </p>
+    <input type="text"  id="inputcm" ><b>cm</b><br>
+    <button class="btn" id="btn-input" onclick="convert1()">Convert</button>
+</div>
+
+<div class="container" id="container4">
+    <h1 id="result">🍿⛱️</h1>
+    <h1>Split the bill among your friends!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores at sit.</p>
+
+    <div class="flex">
+        <input type="text" placeholder="Enter amount" id="amount">
+        <input type="text" placeholder="Enter persons" id="persons">    
+    </div>
+    <button class="btn" onclick="split1()">Split the bill</button>
+</div>
+
+<div class="container" id="container5">
+    <h1 id="bmi">BMI Calculator</h1>
+    <h1>Weight is not the enemy fat is!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores at sit.</p>
+
+    <div class="flex">
+        <input type="text" placeholder="Enter height in m" id="height">
+        <input type="text" placeholder="Enter weight in kg" id="weight">    
+    </div>
+    <button class="btn" onclick="calculate()">Calculate</button>
+</div>
+
+
+</body>
+</html>

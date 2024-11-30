@@ -1,0 +1,43 @@
+.btn{
+    background-color:aquamarine;
+    border-radius: 40px;
+    margin:10px 30px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+#count{
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+body{
+    text-align: center;
+}
+
+#btnh{
+    width:40%;
+    background-color: rgb(214, 124, 214);
+}
+
+#btnhome{
+    width:40%;
+    background-color: rgb(136, 124, 214);
+}
+input{
+    width:150px;
+    box-sizing: border-box;
+    padding:15px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    border: 1px solid lightgreen;
+}
+
+input:focus{
+    outline:none;
+    border:1px solid lightpink;
+}
+
+.container{
+    display:none;
+}
